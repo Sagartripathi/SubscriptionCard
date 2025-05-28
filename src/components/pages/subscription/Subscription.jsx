@@ -8,6 +8,11 @@ export const Subscription = () => {
         description="100 GB"
         price="$1.9/month"
         buttonTitle="Purchase"
+        features={[
+          "100GB of Storage",
+          "Option to add members",
+          "Extra member benefits",
+        ]}
       />
       <Card
         title="STANDARD"
@@ -16,12 +21,22 @@ export const Subscription = () => {
         buttonTitle="Purchase"
         classNames="bg-purple-500"
         divclassNames=" border border-purple-500 "
+        features={[
+          "200GB of Storage",
+          "Option to add members",
+          "Extra member benefits",
+        ]}
       />
       <Card
         title="PREMIUM"
         description="2 TB"
         price="$8.99/month"
         buttonTitle="Purchase"
+        features={[
+          "2 TB of Storage",
+          "Option to add members",
+          "Extra member benefits",
+        ]}
       />
     </div>
   );
