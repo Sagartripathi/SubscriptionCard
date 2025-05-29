@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./card";
+import Card from "./Card";
 export const Subscription = () => {
   return (
     <div className="flex flex-row items-center justify-center gap-5 h-full bg-slate-800 text-white">
