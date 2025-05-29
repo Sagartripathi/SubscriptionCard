@@ -9,11 +9,11 @@ const Item = () => {
   return (
     <div className="bg-slate-100 w-full h-screen flex items-center justify-center">
       <div className="border-amber-200 text-white bg-white flex flex-row items-center justify-center gap-5 w-130 h-110 rounded-lg shadow-lg shadow-b-2xl p-5">
-        <div className="h-fit">
+        <div className="h-fit w-fit flex items-center justify-center">
           <img
             src="https://tailwindfromscratch.com/mini-projects/product-modal/images/headphone.png"
             alt=""
-            className="w-45 "
+            className="w-80 "
           />
         </div>
         <div className="flex flex-col items-left gap-3 text-black m-5">
