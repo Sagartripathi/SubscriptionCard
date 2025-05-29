@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../Button";
 
-const card = ({ ...props }) => {
+const Card = ({ ...props }) => {
   const {
     title,
     description,
@@ -34,4 +34,4 @@ const card = ({ ...props }) => {
   );
 };
 
-export default card;
+export default Card;

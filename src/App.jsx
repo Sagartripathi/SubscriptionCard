@@ -1,6 +1,5 @@
 import React from "react";
 import { Subscription } from "./components/pages/subscription/Subscription";
-import Card from "./components/pages/subscription/card";
 import Item from "./components/pages/item/Item";
 import GalleryImage from "./components/pages/gallery/GalleryImage";
 
